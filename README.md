@@ -1,5 +1,5 @@
 # SpiceJet-Capstone-project
-<p align="Left"><img src="Images/SpiceJetLogo.jpg" alt="screenshot" width="1000"></p>
+![SpiceJetLogo](https://github.com/Venkateshjm13/BestBuyE-Commerce_Capstone_Project/assets/158301208/28210147-5ca1-4fe2-897a-b5cf94d01024)
 
 The Project is to build a system that can automatically test the major functionalities of the SpiceJet Flight ticket booking website. I have used Data-Driven testing for testing Sign In functionality with the Data provider and also it covers the main features of One trip and Round trip as well.
 
@@ -56,10 +56,10 @@ The Project is to build a system that can automatically test the major functiona
 
 ## Maven output Build success screenshot:
  
-<p align="Left"><img src="Images/Maven_ouput.png" alt="screenshot" width="600" height="300"></p>
+![Maven_output](https://github.com/Venkateshjm13/BestBuyE-Commerce_Capstone_Project/assets/158301208/f9eb93f6-b8e5-4a00-af47-1429e2749848)
 
 ## Jenkins output Build success screenshot:
-<p align="Left"><img src="Images/Jenkins_ouput.png" alt="screenshot" width="600"></p>
+![Jenkins_output](https://github.com/Venkateshjm13/BestBuyE-Commerce_Capstone_Project/assets/158301208/5d16856f-78b0-4c4a-8935-1e3f6f1d4f62)
 
 ## Extent report screenshots:
 <p align="Left"><img src="Images/Extentreport1.png" alt="screenshot" width="600"></p>
