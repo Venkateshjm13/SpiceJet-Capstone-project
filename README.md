@@ -35,8 +35,7 @@ The Project is to build a system that can automatically test the major functiona
 <p align="Left"><img src="Images/Dependencies4.png" alt="screenshot" width="600"></p>
 
 ## POM file screenshot:
-<p align="Left"><img src="Images/POM structure.png" alt="screenshot" width="400"></p>
-
+![POM Structure](https://github.com/Venkateshjm13/BestBuyE-Commerce_Capstone_Project/assets/158301208/2c0855ba-e8d4-471d-be82-1d03a55d30f2)
 
 
 ## Test case Code Example:
