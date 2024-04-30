@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-29T20:32:15 IST" name="Suite" finished-at="2024-04-29T20:38:47 IST" duration-ms="391899">
+    <groups>
+    </groups>
+    <test started-at="2024-04-29T20:32:15 IST" name="Test" finished-at="2024-04-29T20:38:47 IST" duration-ms="391899">
+      <class name="testcases.TC007_LoginWithInvalidInputs_MobileNumberTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:32:15 IST" name="setup" finished-at="2024-04-29T20:32:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:36:44 IST" name="browserLaunch" finished-at="2024-04-29T20:36:54 IST" duration-ms="10286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LoginCredentials_MobileNumber(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:36:54 IST" name="LoginCredentials_MobileNumber" data-provider="getData" finished-at="2024-04-29T20:36:58 IST" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidMobileNumber]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[831004712]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials_MobileNumber -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:36:58 IST" name="closeBrowser" finished-at="2024-04-29T20:36:58 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:36:58 IST" name="browserLaunch" finished-at="2024-04-29T20:37:09 IST" duration-ms="10952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LoginCredentials_MobileNumber(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:37:09 IST" name="LoginCredentials_MobileNumber" data-provider="getData" finished-at="2024-04-29T20:37:14 IST" duration-ms="5116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidPassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8310047124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials_MobileNumber -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:37:14 IST" name="closeBrowser" finished-at="2024-04-29T20:37:15 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:37:15 IST" name="browserLaunch" finished-at="2024-04-29T20:37:25 IST" duration-ms="10419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LoginCredentials_MobileNumber(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:37:25 IST" name="LoginCredentials_MobileNumber" data-provider="getData" finished-at="2024-04-29T20:37:28 IST" duration-ms="3179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EmptyMobileNumber]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[`]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials_MobileNumber -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:37:28 IST" name="closeBrowser" finished-at="2024-04-29T20:37:29 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:37:29 IST" name="browserLaunch" finished-at="2024-04-29T20:37:39 IST" duration-ms="10753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LoginCredentials_MobileNumber(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:37:39 IST" name="LoginCredentials_MobileNumber" data-provider="getData" finished-at="2024-04-29T20:37:44 IST" duration-ms="4110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EmptyPassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8310047124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[`]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials_MobileNumber -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC007_LoginWithInvalidInputs_MobileNumberTest@543295b0]" started-at="2024-04-29T20:37:44 IST" name="closeBrowser" finished-at="2024-04-29T20:37:44 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC007_LoginWithInvalidInputs_MobileNumberTest -->
+      <class name="testcases.TC005_OneTripTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC005_OneTripTest@3e8c3cb]" started-at="2024-04-29T20:32:15 IST" name="setup" finished-at="2024-04-29T20:32:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC005_OneTripTest@3e8c3cb]" started-at="2024-04-29T20:33:38 IST" name="browserLaunch" finished-at="2024-04-29T20:33:49 IST" duration-ms="10778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="OneWayTrip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC005_OneTripTest@3e8c3cb]" started-at="2024-04-29T20:33:49 IST" name="OneWayTrip" data-provider="getData" finished-at="2024-04-29T20:35:11 IST" duration-ms="82016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8310047124]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jmvenkatesh06@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BENGALURU]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DELHI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneWayTrip -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC005_OneTripTest@3e8c3cb]" started-at="2024-04-29T20:35:11 IST" name="closeBrowser" finished-at="2024-04-29T20:35:12 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC005_OneTripTest -->
+      <class name="testcases.TC004_FieldValidationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC004_FieldValidationTest@793f29ff]" started-at="2024-04-29T20:32:15 IST" name="setup" finished-at="2024-04-29T20:32:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC004_FieldValidationTest@793f29ff]" started-at="2024-04-29T20:33:21 IST" name="browserLaunch" finished-at="2024-04-29T20:33:31 IST" duration-ms="10085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="FieldValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC004_FieldValidationTest@793f29ff]" started-at="2024-04-29T20:33:31 IST" name="FieldValidation" data-provider="getData" finished-at="2024-04-29T20:33:38 IST" duration-ms="6859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8310047124]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jmvenkatesh06@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BENGALURU]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DELHI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FieldValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC004_FieldValidationTest@793f29ff]" started-at="2024-04-29T20:33:38 IST" name="closeBrowser" finished-at="2024-04-29T20:33:38 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC004_FieldValidationTest -->
+      <class name="testcases.TC001_BrokenURLValidationTest">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC001_BrokenURLValidationTest@791f145a]" started-at="2024-04-29T20:32:15 IST" name="browserLaunch" finished-at="2024-04-29T20:32:28 IST" duration-ms="13072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="BrokenURLValidation(java.lang.String)[pri:0, instance:testcases.TC001_BrokenURLValidationTest@791f145a]" started-at="2024-04-29T20:32:28 IST" name="BrokenURLValidation" finished-at="2024-04-29T20:32:31 IST" duration-ms="2227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrokenURLValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC001_BrokenURLValidationTest@791f145a]" started-at="2024-04-29T20:32:31 IST" name="closeBrowser" finished-at="2024-04-29T20:32:31 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC001_BrokenURLValidationTest -->
+      <class name="testcases.TC008_LoginWithInvalidInputs_EmailIDTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:32:15 IST" name="setup" finished-at="2024-04-29T20:32:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:37:44 IST" name="browserLaunch" finished-at="2024-04-29T20:37:55 IST" duration-ms="10461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LoginCredentials_EmailID(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:37:55 IST" name="LoginCredentials_EmailID" data-provider="getData" finished-at="2024-04-29T20:37:59 IST" duration-ms="4310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidEmailID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jmvenkatesh06gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials_EmailID -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:37:59 IST" name="closeBrowser" finished-at="2024-04-29T20:37:59 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:37:59 IST" name="browserLaunch" finished-at="2024-04-29T20:38:10 IST" duration-ms="10380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LoginCredentials_EmailID(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:38:10 IST" name="LoginCredentials_EmailID" data-provider="getData" finished-at="2024-04-29T20:38:16 IST" duration-ms="5994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidPassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jmvenkatesh06@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials_EmailID -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:38:16 IST" name="closeBrowser" finished-at="2024-04-29T20:38:16 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:38:16 IST" name="browserLaunch" finished-at="2024-04-29T20:38:27 IST" duration-ms="10812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LoginCredentials_EmailID(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:38:27 IST" name="LoginCredentials_EmailID" data-provider="getData" finished-at="2024-04-29T20:38:30 IST" duration-ms="3279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EmptyEmailID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[`]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials_EmailID -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:38:30 IST" name="closeBrowser" finished-at="2024-04-29T20:38:31 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:38:31 IST" name="browserLaunch" finished-at="2024-04-29T20:38:41 IST" duration-ms="9929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LoginCredentials_EmailID(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:38:41 IST" name="LoginCredentials_EmailID" data-provider="getData" finished-at="2024-04-29T20:38:47 IST" duration-ms="5829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EmptyPassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jmvenkatesh06@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[`]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials_EmailID -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC008_LoginWithInvalidInputs_EmailIDTest@54422e18]" started-at="2024-04-29T20:38:47 IST" name="closeBrowser" finished-at="2024-04-29T20:38:47 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC008_LoginWithInvalidInputs_EmailIDTest -->
+      <class name="testcases.TC003_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC003_LoginTest@5d0bf09b]" started-at="2024-04-29T20:32:15 IST" name="setup" finished-at="2024-04-29T20:32:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_LoginTest@5d0bf09b]" started-at="2024-04-29T20:32:51 IST" name="browserLaunch" finished-at="2024-04-29T20:33:02 IST" duration-ms="11046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LoginCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_LoginTest@5d0bf09b]" started-at="2024-04-29T20:33:02 IST" name="LoginCredential" data-provider="getData" finished-at="2024-04-29T20:33:20 IST" duration-ms="17801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8310047124]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jmvenkatesh06@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BENGALURU]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DELHI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredential -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC003_LoginTest@5d0bf09b]" started-at="2024-04-29T20:33:20 IST" name="closeBrowser" finished-at="2024-04-29T20:33:20 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC003_LoginTest -->
+      <class name="testcases.TC002_SignupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC002_SignupTest@248e319b]" started-at="2024-04-29T20:32:15 IST" name="setup" finished-at="2024-04-29T20:32:15 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_SignupTest@248e319b]" started-at="2024-04-29T20:32:32 IST" name="browserLaunch" finished-at="2024-04-29T20:32:43 IST" duration-ms="10853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="SignupCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_SignupTest@248e319b]" started-at="2024-04-29T20:32:43 IST" name="SignupCredentials" data-provider="getData" finished-at="2024-04-29T20:32:50 IST" duration-ms="6896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tharun]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[JM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2006]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8310047124]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[jmvenkatesh06@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC002_SignupTest@248e319b]" started-at="2024-04-29T20:32:50 IST" name="closeBrowser" finished-at="2024-04-29T20:32:51 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC002_SignupTest -->
+      <class name="testcases.TC006_RoundTripTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TC006_RoundTripTest@563f38c4]" started-at="2024-04-29T20:32:15 IST" name="setup" finished-at="2024-04-29T20:32:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC006_RoundTripTest@563f38c4]" started-at="2024-04-29T20:35:12 IST" name="browserLaunch" finished-at="2024-04-29T20:35:23 IST" duration-ms="11440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="RoundWayTrip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC006_RoundTripTest@563f38c4]" started-at="2024-04-29T20:35:23 IST" name="RoundWayTrip" data-provider="getData" finished-at="2024-04-29T20:36:43 IST" duration-ms="79778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8310047124]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass$123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jmvenkatesh06@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BENGALURU]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DELHI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RoundWayTrip -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TC006_RoundTripTest@563f38c4]" started-at="2024-04-29T20:36:43 IST" name="closeBrowser" finished-at="2024-04-29T20:36:44 IST" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC006_RoundTripTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

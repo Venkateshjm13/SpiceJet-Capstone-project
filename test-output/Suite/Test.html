@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 29 19:43:09 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>373 seconds (373611 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.OneTripTest.OneWayTrip()'><b>OneWayTrip</b><br>Test class: testcases.OneTripTest<br>Parameters: 8310047124, Pass$123, jmvenkatesh06@gmail.com, BENGALURU, DELHI</td>
+<td></td>
+<td>69</td>
+<td>testcases.OneTripTest@6bb4dd34</td></tr>
+<tr>
+<td title='testcases.TC012_LoginWithInvalidInputs_EmailIDTest.LoginCredentials_EmailID()'><b>LoginCredentials_EmailID</b><br>Test class: testcases.TC012_LoginWithInvalidInputs_EmailIDTest<br>Parameters: InvalidEmailID, jmvenkatesh06gmail.com, Pass$123</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC012_LoginWithInvalidInputs_EmailIDTest@4b8729ff</td></tr>
+<tr>
+<td title='testcases.TC011_LoginWithInvalidInputs_MobileNumberTest.LoginCredentials_MobileNumber()'><b>LoginCredentials_MobileNumber</b><br>Test class: testcases.TC011_LoginWithInvalidInputs_MobileNumberTest<br>Parameters: InvalidMobileNumber, 831004712, Pass$123</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC011_LoginWithInvalidInputs_MobileNumberTest@45efd90f</td></tr>
+<tr>
+<td title='testcases.TC001_BrokenURLValidationTest.BrokenURLValidation()'><b>BrokenURLValidation</b><br>Test class: testcases.TC001_BrokenURLValidationTest<br>Parameters: https://www.spicejet.com/</td>
+<td></td>
+<td>1</td>
+<td>testcases.TC001_BrokenURLValidationTest@7486b455</td></tr>
+<tr>
+<td title='testcases.TC011_LoginWithInvalidInputs_MobileNumberTest.LoginCredentials_MobileNumber()'><b>LoginCredentials_MobileNumber</b><br>Test class: testcases.TC011_LoginWithInvalidInputs_MobileNumberTest<br>Parameters: EmptyMobileNumber, `, Pass$123</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC011_LoginWithInvalidInputs_MobileNumberTest@45efd90f</td></tr>
+<tr>
+<td title='testcases.TC012_LoginWithInvalidInputs_EmailIDTest.LoginCredentials_EmailID()'><b>LoginCredentials_EmailID</b><br>Test class: testcases.TC012_LoginWithInvalidInputs_EmailIDTest<br>Parameters: InvalidPassword, jmvenkatesh06@gmail.com, Pass123</td>
+<td></td>
+<td>5</td>
+<td>testcases.TC012_LoginWithInvalidInputs_EmailIDTest@4b8729ff</td></tr>
+<tr>
+<td title='testcases.TC011_LoginWithInvalidInputs_MobileNumberTest.LoginCredentials_MobileNumber()'><b>LoginCredentials_MobileNumber</b><br>Test class: testcases.TC011_LoginWithInvalidInputs_MobileNumberTest<br>Parameters: EmptyPassword, 8310047124, `</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC011_LoginWithInvalidInputs_MobileNumberTest@45efd90f</td></tr>
+<tr>
+<td title='testcases.RoundTripTest.RoundWayTrip()'><b>RoundWayTrip</b><br>Test class: testcases.RoundTripTest<br>Parameters: 8310047124, Pass$123, jmvenkatesh06@gmail.com, BENGALURU, DELHI</td>
+<td></td>
+<td>71</td>
+<td>testcases.RoundTripTest@7d9f158f</td></tr>
+<tr>
+<td title='testcases.TC012_LoginWithInvalidInputs_EmailIDTest.LoginCredentials_EmailID()'><b>LoginCredentials_EmailID</b><br>Test class: testcases.TC012_LoginWithInvalidInputs_EmailIDTest<br>Parameters: EmptyEmailID, `, Pass$123</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC012_LoginWithInvalidInputs_EmailIDTest@4b8729ff</td></tr>
+<tr>
+<td title='testcases.TC010_FieldValidationTest.FieldValidation()'><b>FieldValidation</b><br>Test class: testcases.TC010_FieldValidationTest<br>Parameters: 8310047124, Pass$123, jmvenkatesh06@gmail.com, BENGALURU, DELHI</td>
+<td></td>
+<td>7</td>
+<td>testcases.TC010_FieldValidationTest@2ad48653</td></tr>
+<tr>
+<td title='testcases.TC011_LoginWithInvalidInputs_MobileNumberTest.LoginCredentials_MobileNumber()'><b>LoginCredentials_MobileNumber</b><br>Test class: testcases.TC011_LoginWithInvalidInputs_MobileNumberTest<br>Parameters: InvalidPassword, 8310047124, Pass123</td>
+<td></td>
+<td>4</td>
+<td>testcases.TC011_LoginWithInvalidInputs_MobileNumberTest@45efd90f</td></tr>
+<tr>
+<td title='testcases.TC012_LoginWithInvalidInputs_EmailIDTest.LoginCredentials_EmailID()'><b>LoginCredentials_EmailID</b><br>Test class: testcases.TC012_LoginWithInvalidInputs_EmailIDTest<br>Parameters: EmptyPassword, jmvenkatesh06@gmail.com, `</td>
+<td></td>
+<td>4</td>
+<td>testcases.TC012_LoginWithInvalidInputs_EmailIDTest@4b8729ff</td></tr>
+<tr>
+<td title='testcases.TC003_LoginTest.LoginCredential()'><b>LoginCredential</b><br>Test class: testcases.TC003_LoginTest<br>Parameters: 8310047124, Pass$123, jmvenkatesh06@gmail.com, BENGALURU, DELHI</td>
+<td></td>
+<td>18</td>
+<td>testcases.TC003_LoginTest@32115b28</td></tr>
+<tr>
+<td title='testcases.TC002_SignupTest.SignupCredentials()'><b>SignupCredentials</b><br>Test class: testcases.TC002_SignupTest<br>Parameters: Mr, Tharun, JM, IN, 3, 2006, 8310047124, jmvenkatesh06@gmail.com, Pass$123, Pass$123</td>
+<td></td>
+<td>12</td>
+<td>testcases.TC002_SignupTest@5038d0b5</td></tr>
+</table><p>
+</body>
+</html>

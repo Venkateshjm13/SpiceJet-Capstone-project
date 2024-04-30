@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (1)]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="baseUrl" value="https://www.spicejet.com/"/>
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.TC011_LoginWithInvalidInputs_MobileNumberTest">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="browserLaunch"/>
+          <include name="LoginCredentials_EmailID" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- testcases.TC011_LoginWithInvalidInputs_MobileNumberTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->
