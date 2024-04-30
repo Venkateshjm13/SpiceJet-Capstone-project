@@ -1,5 +1,5 @@
 # SpiceJet-Capstone-project
-<p align="Left"><img src="Images/SpiceJetLogo.jpg" alt="screenshot" width="400", height="200"></p>
+<p align="Left"><img src="Images/SpiceJetLogo.jpg" alt="screenshot" width="600", height="200"></p>
 
 The Project is to build a system that can automatically test the major functionalities of the SpiceJet Flight ticket booking website. I have used Data-Driven testing for testing Sign In functionality with the Data provider and also it covers the main features of One trip and Round trip as well.
 
